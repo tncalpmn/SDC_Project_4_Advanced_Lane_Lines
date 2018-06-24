@@ -32,7 +32,7 @@ The goals / steps of this project are the following:
 ### Aftermath - What I have used?
 Here is a list of API functions that I have been using along this project.  
 
-* **glob.glob('../testImage*.jpg')** -> returns the name of the images that fits to the String name convention between parenthesis
+* **glob.glob('../testImageX.jpg')** -> returns the name of the images that fits to the String name convention between parenthesis
 * **np.mgrid[x1:x2,y1:y2]** -> returns a dense multi-dimensional “meshgrid”.
 * **cv2.findChessboardCorners** -> On a given gray Image finds the cornes where black & white pixels changes significantly
 * **cv2.drawChessboardCorners** -> draw lines on found corners by findChessboardCorners method
